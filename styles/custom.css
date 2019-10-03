@@ -117,6 +117,10 @@
     border: 1px solid black !important;
 }
 
+.body {
+    background: #000 url('../img/cover(light).png') !important;
+}
+
 .masthead {
     height: 100%;
     min-height: 500px;

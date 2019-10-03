@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://getbootstrap.com/docs/4.3/examples/product/# -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--CSS bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>DropCiência</title>
+    <link rel="icon" href="./img/favicon.ico">
+    <!--Css do fontawesome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- CCSS Custom-->
+    <link href="./styles/custom.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar" data-spy="affix">
+        <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" height="32" class="d-inline-block align-top" alt=""> DropCiência
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarToggler" aria-controls="navBarToggler" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navBarToggler">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#conteudo">Conteúdo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+        </div>
+    </nav>
+    <!--Bloco de apresentação-->
+    <header class="masthead " id="inicio">
+
+        <div class="container-fluid">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center text-white">
+                    <img src="./img/logo.png" height="64" alt="">
+                    <h1 class="font-weight-light">DropCiência</h1>
+                    <p class="lead">Priorizamos a qualidade da aprendizagem!.</p>
+                    <p class="text-center">O DropCiência vem com forte senso de responsabilidade ao apresentar conteúdos da área de ciências naturais.</p>
+                    <a class="btn btn-info text-white" href="#">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Fim do bloco de apresentação-->
+    <!--Bloco de conteudo-->
+    <div class="d-md-flex flex-md-equal">
+        <div class="bg-dark  ">
+            <div class="my-3 py-3">
+                <h2 class="display-5 text-center text-uppercase text-white" id="sobre">Sobre</h2>
+            </div>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <p class="lead">
+                        O DropCiência é um projeto desenvolvido com o intuito de ajudar pessoas
+                    </p>
+                    <p class="lead">
+                        que se interessam na área de ciências naturais a obterem conhecimento sobre diversos assuntos
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-md-flex flex-md-equal">
+        <div class="bg-dark text-center  ">
+            <div class="my-3 py-3">
+                <h2 class="display-5 text-uppercase text-white" id="conteudo">Veja nossos conteúdos!</h2>
+            </div>
+            <div class="jumbotron ">
+                <div class="row">
+                    <div class="col-md-4 offset-md-4">
+                        <div class="card mb-3 text-white text-center bg-dark" style="max-width: 540px;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <iframe class="card-img" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Youtube!</h5>
+                                        <p class="card-text">Nossas aulas gratuitas estão disponibilizadas no youtube para você assistir quando quiser.</p>
+                                        <a class="btn btn-primary" href="https://www.youtube.com/channel/UCoWOjYRD30QDu3L5oqJB2fQ" role="button">Veja mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-md-flex flex-md-equal">
+        <div class="bg-dark text-center text-white ">
+            <div class="my-3 py-3">
+                <h2 class="display-5" id="contato">Contato</h2>
+            </div>
+            <div class="bg-dark shadow-sm mx-auto">
+                <div class="contact-info">
+                    <div id="errormessage"></div>
+                    <div class="row">
+                        <div class="container">
+                            <div class="col-md-6 offset-md-3">
+                                <form action="" method="post" role="form" class="form">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                        <div class="validation"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control br-radius-zero" name="email" id="email" placeholder="Seu email" data-rule="email" data-msg="Please enter a valid email" />
+                                        <div class="validation"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control br-radius-zero" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                        <div class="validation"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Mensagem" placeholder="Mensagem"></textarea>
+                                        <div class="validation"></div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fim do bloco de conteúdo-->
+    <!--Bloco inferior-->
+    <footer class="d-md-flex flex-md-equal">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md">
+                        <h5>Links rápidos</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#inicio">Inicio</a></li>
+                            <li><a class="text-muted" href="#sobre">Sobre</a></li>
+                            <li><a class="text-muted" href="#conteudo">Conteúdo</a></li>
+                            <li><a class="text-muted" href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>Redes Sociais</h5>
+                        <ul class="list-unstyled text-small">
+                            <a class="btn btn-dark" href="https://www.facebook.com/DropCi%C3%AAncia-104969800911327/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a class="btn btn-dark" href="https://www.youtube.com/channel/UCoWOjYRD30QDu3L5oqJB2fQ" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                            <a class="btn btn-dark" href="https://www.linkedin.com/company/dropci%C3%AAncia/about/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-dark" href="https://www.instagram.com/dropciencia/" target="_blank"><i
+                                            class="fa fa-instagram"></i></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md text-center">
+                        <img src="./img/logo.png" width="30" height="30" alt="">
+                        <a href="#inicio">
+                            <small class="d-block mb-3 text-muted">© DropCiência 2019</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Final do bloco inferior-->
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>

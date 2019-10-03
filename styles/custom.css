@@ -130,6 +130,10 @@
     background-repeat: no-repeat;
 }
 
+
+#inicio{
+	padding-top: 180px;
+}
 #sobre,
 #conteudo,
 #contato {
